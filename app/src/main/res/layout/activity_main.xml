@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintma"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="351dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Sqaure"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="@string/square"
+        android:textColor="@color/white"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/Rectangle"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="92dp"
+
+        android:backgroundTint="#0E0E0E"
+        android:text="@string/rectangle"
+        android:textColor="@color/white"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Triangle" />
+
+    <Button
+        android:id="@+id/Triangle"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="@string/triangle"
+        android:textColor="@color/white"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toEndOf="@+id/Sqaure"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/Circle"
+        android:layout_width="172dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="@string/circle"
+        android:textColor="@color/white"
+        android:textColorHint="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sqaure" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

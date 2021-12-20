@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Area Calculator App</string>
+    <string name="square">Square</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="main">Main</string>
+    <string name="enter_raduis_of_circle">Enter Radius of Circle</string>
+    <string name="area">Area</string>
+    <string name="clear">Clear</string>
+    <string name="enter_width_of_rec">Enter Width of Rectangle</string>
+    <string name="enter_length_of_rec">Enter Length of Rectangle</string>
+    <string name="enter_length_of_square">Enter Length of Square</string>
+    <string name="enter_height_of_triangle">Enter Height of Triangle</string>
+    <string name="enter_base_of_triangle">Enter Base of Triangle</string>
+    <string name="slides">Slides</string>
+    <string name="calculate_area_of_sqaure">Calculate Area of Sqaure</string>
+    <string name="calculate_area_of_circle">Calculate Area of Circle</string>
+    <string name="calculate_area_of_rectangle">Calculate Area of Rectangle</string>
+    <string name="calculate_area_of_triangle">Calculate Area of Triangle</string>
+    <string name="logo">logo</string>
+
+</resources>
